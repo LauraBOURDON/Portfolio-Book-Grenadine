@@ -1,0 +1,90 @@
+#title {
+  display: flex;
+  font-size: 300%;
+  font-family: cursive;
+  color: white;
+  justify-content: center;
+  padding-block: 20px;
+  border: 10px dotted;
+  border-radius: 50%;
+  letter-spacing: 15px;
+  text-decoration: underline 3px dotted;
+  background-image: url("fruits_rouges.jpg");
+}
+
+a:not(#wiki) {
+  text-decoration: none;
+  color: black;
+  margin: auto;
+}
+
+ul,
+li {
+  background-color: white;
+  list-style: none;
+  position: relative;
+  top: 0%;
+  font-family: cursive;
+}
+
+#fb {
+  display: none;
+}
+
+#all {
+  display: flex;
+  align-items: center;
+}
+
+#menu ul:not(#Same) {
+  border: 3px dotted;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 80px;
+}
+
+#Same:hover ul {
+  position: absolute;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  left: 75%;
+  z-index: 1;
+}
+ul li:hover {
+  background-color: rgb(241, 93, 105);
+}
+ul li ul li:hover {
+  background-color: rgb(253, 135, 194);
+}
+
+li {
+  height: 25px;
+}
+
+div#texte {
+  font-family: cursive;
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 30%;
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient(
+    rgb(251, 50, 50),
+    rgb(255, 255, 255),
+    rgb(255, 0, 43)
+  );
+  background-size: 250% 300%;
+}
+
+ul li {
+  text-align: center;
+  margin-left: -40px;
+}
+ul li ul li {
+  text-align: center;
+  margin-left: -40px;
+}
